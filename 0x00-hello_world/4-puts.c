@@ -1,13 +1,10 @@
 #include <stdio.h>
-
 /*
  * main - main blocK
  * Return: Always 0 (Success)
  *
  */
-
-
-int main(void) /* main block */
+int main(void) 
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
