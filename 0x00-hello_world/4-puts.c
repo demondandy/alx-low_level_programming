@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /*
- * main - main program to print strings
- * Return: 0
+ * main - Entry point.
+ * Return: 0 if exited properly, non-zero otherwise.
  */
 int main(void)
 {
