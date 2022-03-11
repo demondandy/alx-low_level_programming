@@ -3,7 +3,7 @@
 /**
  * main - main entry.
  *
- * Return - value(0)
+ * Description: Return - value(0).
  */
 int main(void)
 {
