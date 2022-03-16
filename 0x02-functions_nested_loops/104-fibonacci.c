@@ -3,11 +3,10 @@
 /**
  * main - Entry point
  *
- * Reurn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-
 	unsigned long int i, j, k, j1, j2, k1, k2;
 
 	j = 1;
