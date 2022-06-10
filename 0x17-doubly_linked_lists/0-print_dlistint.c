@@ -4,14 +4,19 @@
  * print_dlistint - Print a doubly linked list
  * @h: Head of the linked list
  *
- * Return: Number of elements of the list
+ * Return: size of the linked list
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	size_t elements;
+	size_t count;
 
-	for (elements = 0; h != NULL; h = h->next, elements++)
+	count = 0;
+	if (h == NULL)
+		return (count);
+	do {
+		count++;
 		printf("%d\n", h->n);
-
-	return (elements);
+		h = h->next;
+	} while (h != NULL);
+	return (count);
 }
